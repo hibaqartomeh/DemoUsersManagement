@@ -1,0 +1,64 @@
+syntax = "proto3";
+
+option csharp_namespace = "DemoUsMange";
+
+package invitationmember.v1;
+
+
+service InvitaionMember {
+
+  rpc SendInvitation (SendInvitationRequest) returns (Response);
+  rpc CancelInvitation (CancelInvitationRequest) returns (Response);
+  rpc AcceptInvitation (AcceptInvitationRequest) returns (Response);
+  rpc RejectInvitation (RejectInvitationRequest) returns (Response);
+}
+
+message SendInvitation {
+  string id = 1; //
+  string acc_id = 2;
+  string sub_id = 3;
+  string member_id = 4;
+  string us_id = 5;  
+  int32  permissions = 6;
+}
+
+
+message SendInvitationRequest {
+  string id = 1;
+  string acc_id = 2;
+  string sub_id = 3;
+  string member_id = 4;
+  string us_id = 5;  
+  int32 permissions = 6;
+}
+
+message CancelInvitationRequest{
+	string id = 1;
+	string acc_id = 2;
+	string member_id = 3;
+	string sub_id = 4;
+	string us_id = 5;
+}
+
+message AcceptInvitationRequest{
+	string id = 1;
+	string acc_id = 2;
+	string member_id = 3;
+	string sub_id = 4;
+	string us_id = 5;
+}
+
+message RejectInvitationRequest{
+	string id = 1;
+	string acc_id = 2;
+	string member_id = 3;
+	string sub_id = 4;
+	string us_id = 5;
+}
+
+
+message Response {
+	string id = 1;
+   string message = 2;
+}
+

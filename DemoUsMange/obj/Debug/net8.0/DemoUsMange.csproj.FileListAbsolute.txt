@@ -1,0 +1,6 @@
+C:\Users\Administrator.HSQAK\source\repos\DemoUsMange\DemoUsMange\obj\Debug\net8.0\DemoUsMange.csproj.AssemblyReference.cache
+C:\Users\Administrator.HSQAK\source\repos\DemoUsMange\DemoUsMange\obj\Debug\net8.0\DemoUsMange.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator.HSQAK\source\repos\DemoUsMange\DemoUsMange\obj\Debug\net8.0\DemoUsMange.AssemblyInfoInputs.cache
+C:\Users\Administrator.HSQAK\source\repos\DemoUsMange\DemoUsMange\obj\Debug\net8.0\DemoUsMange.AssemblyInfo.cs
+C:\Users\Administrator.HSQAK\source\repos\DemoUsMange\DemoUsMange\obj\Debug\net8.0\DemoUsMange.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.HSQAK\source\repos\DemoUsMange\DemoUsMange\obj\Debug\net8.0\DemoUsMange.MvcApplicationPartsAssemblyInfo.cache
